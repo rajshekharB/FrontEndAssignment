@@ -1,0 +1,32 @@
+<html ng-app="sampleApp">
+    <head>
+        <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' />
+        <link rel='stylesheet' href="css/customStyle.css">
+        <base href="/">
+    </head>
+    <body>
+        <div class='container'>
+            <div class='row customNavbar'>
+                <nav class="navbar navbar-default">
+                    <div class="container-fluid clearfix">
+                        <div class="navbar-header">
+                        <a class="navbar-brand" href="/">Stock App</a>
+                        </div>
+                        <ul class="nav navbar-nav pull-right">
+                        <li class="active"><a href="/#home">Home</a></li>
+                        <li class="active"><a href="/#login">Login</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div ng-view></div>
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.min.js"></script>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.3/socket.io.js"></script>
+         <script src="app.js"></script>
+         <script src="controllers.js"></script>
+    </body>
+</html>

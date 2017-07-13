@@ -1,0 +1,25 @@
+<div class='container'>
+    <div class='row'>
+        <div class="stockWrapper">
+            <h1 class='text-center'>Welcome To Stock App</h1>
+            <p class='text-center'>{{message}}</p>
+            <div class='stockReport'>
+                <table class='table table-striped table-bordered'>
+                    <tbody class='text-center'>
+                        <tr ng-repeat="stock in stocks">
+                            <td>{{stock.company}}</td>
+                            <td>{{stock.previousStock}}</td>
+                            <td class='clearfix'>
+                                <p ng-style="{ color : stock.previousStock >  stock.currentStock ? 'red' : 'green'}">
+                                <span class='pull-left'>{{stock.currentStock}}</span>
+                                <span ng-if="stock.previousStock <  stock.currentStock" class="glyphicon glyphicon-triangle-top pull-right"></span>
+                                <span ng-if="stock.previousStock >  stock.currentStock" class="glyphicon glyphicon-triangle-bottom pull-right"></span>
+                                </p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

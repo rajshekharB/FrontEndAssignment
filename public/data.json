@@ -1,0 +1,53 @@
+{
+    "stocks":
+    [
+        {
+            "company":"Shree Renuka Sugar",
+            "previousStock":"20",
+            "currentStock":"30",
+            "lastModified":"Fri Jul 07 2017 21:41:32 GMT+0530 (India Standard Time)"
+        },
+        {
+            "company":"Unitech Ltd",
+            "previousStock":"19",
+            "currentStock":"16",
+            "lastModified":"Fri Jul 07 2017 21:41:32 GMT+0530 (India Standard Time)"            
+        },
+        {
+            "company":"Tube Investments",
+            "previousStock":"23",
+            "currentStock":"30",
+            "lastModified":"Fri Jul 07 2017 21:41:32 GMT+0530 (India Standard Time)"        
+        },
+        {
+            "company":"JaiprakshAssociates",
+            "previousStock":"200",
+            "currentStock":"180",
+            "lastModified":"Fri Jul 07 2017 21:41:32 GMT+0530 (India Standard Time)"            
+        },
+        {
+            "company":"Intellect Design",
+            "previousStock":"201",
+            "currentStock":"130",
+            "lastModified":"9:47:42 PM"            
+        },
+        {
+            "company":"Page Industries Ltd",
+            "previousStock":"20",
+            "currentStock":"30",
+            "lastModified":"9:47:42 PM"
+        },
+        {
+            "company":"Coromandal International",
+            "previousStock":"-3",
+            "currentStock":"3",
+            "lastModified":"9:47:42 PM"
+        },
+        {
+            "company":"Fortis Health Care",
+            "previousStock":"162",
+            "currentStock":"158",
+            "lastModified":"9:47:42 PM"
+        }
+    ]
+}
